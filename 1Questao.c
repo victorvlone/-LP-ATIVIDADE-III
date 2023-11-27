@@ -7,10 +7,10 @@ int main () {
 
     setlocale(LC_ALL, "portuguese");
 
-    char nomes[2][200];
-    int idades[2];
-    float pesos[2];
-    float alturas[2];
+    char nomes[6][200];
+    int idades[6];
+    float pesos[6];
+    float alturas[6];
     int i;
     float MaiorValor[3] = {0, 0, 0};
     float MenorValor[3] = {999, 999, 999};
